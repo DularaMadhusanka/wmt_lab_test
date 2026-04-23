@@ -124,7 +124,7 @@ The backend stays online and connects to MongoDB Atlas.
 - Connect your GitHub repository
 - Set `Root Directory` to `backend`
 - Set `Build Command` to `npm install`
-- Set `Start Command` to `npm start`
+- Set `Start Command` to `node server.js`
 
 ### Render environment variables
 
@@ -182,6 +182,8 @@ The frontend serves the React UI to the browser.
 - Let Vercel detect `Vite`
 - Keep the default build command: `npm run build`
 - Output directory: `dist`
+- npm install
+
 
 ### Vercel environment variable
 
